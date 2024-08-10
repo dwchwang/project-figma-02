@@ -518,3 +518,36 @@ a {
   border-radius: 50%;
   background: #1ebfc1;
 }
+
+/* =========== Countdown =========== */
+
+.countdown {
+  margin-top: 324px;
+}
+
+.countdown-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown .body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 862px;
+}
+
+.countdown-list .static {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.countdown-list .desc {
+  margin-top: 11px;
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
+}
