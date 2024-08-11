@@ -551,3 +551,115 @@ a {
   font-size: 1.8rem;
   line-height: normal;
 }
+
+/* =========== Feedback =========== */
+
+.feedback {
+  margin-top: 227px;
+}
+
+.feedback .body {
+  position: relative;
+  padding: 37px 0;
+}
+
+.feedback blockquote {
+  max-width: 419px;
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.feedback .desc {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.feedback .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.feedback .desc::before {
+  content: "";
+  width: 8px;
+  height: 2px;
+  display: inline-block;
+  background: #070707;
+  margin-right: 5px;
+}
+
+.feedback .feedback-cta {
+  display: flex;
+  margin-top: 52px;
+  margin-left: -30px;
+}
+
+.feedback .feedback-cta .cta-btn-group {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+}
+
+.feedback .feedback-cta .cta-btn-group:hover {
+  opacity: 0.9;
+  border: 1px solid rgba(207, 20, 195, 0.219);
+  transition: 0.5s;
+}
+
+.feedback .ava-fb {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.feedback .avar-fb-1 {
+  width: 235px;
+  height: 235px;
+  top: 107px;
+  left: 764px;
+}
+
+.feedback .avar-fb-2 {
+  width: 92px;
+  height: 92px;
+  top: 0;
+  left: 635px;
+}
+
+.feedback .avar-fb-3 {
+  top: 258px;
+  left: 491px;
+}
+
+.feedback .avar-fb-4 {
+  bottom: 0;
+  left: 703px;
+}
+
+.feedback .avar-fb-5 {
+  bottom: 29px;
+  left: 1060px;
+}
+
+.feedback .avar-fb-6 {
+  top: 19px;
+  right: 0;
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+}
