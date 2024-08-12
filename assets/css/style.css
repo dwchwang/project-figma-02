@@ -732,6 +732,11 @@ a {
   margin-right: 9px;
 }
 
+.footer .item-5 a {
+  display: flex;
+  align-items: center;
+}
+
 .footer .copyright {
   margin-top: 80px;
   padding-bottom: 50px;
