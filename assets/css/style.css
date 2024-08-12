@@ -691,3 +691,52 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+
+/* =========== footer =========== */
+
+.footer {
+  background: fff;
+}
+
+.footer .row {
+  padding: 131px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+
+.footer li a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .icon {
+  margin-right: 9px;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  padding-bottom: 50px;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  line-height: normal;
+  text-align: center;
+}
