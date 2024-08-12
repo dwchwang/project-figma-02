@@ -663,3 +663,31 @@ a {
   height: 110px;
   flex-shrink: 0;
 }
+
+/* =========== Admin =========== */
+.admin {
+  margin-top: 130px;
+  background: #def6f5;
+}
+
+.admin .admin-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 76px 154px 88px 0;
+}
+
+.admin .admin-left .heading-lv2 {
+  color: #070707;
+  line-height: normal;
+}
+
+.admin .admin-left .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
